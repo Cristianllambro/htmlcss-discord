@@ -94,23 +94,48 @@ li a{
     color: white;
 }
 
-.main-one{
-    width: 100%;
-    height: auto;
-}
-
-.item-one{
+.item{
     width: 50%;
     margin-left: 10%;
     margin-top: 4em;
     float: left;
 }
 
-.text-one{
+.text{
     width: 20%;
     margin-top: 6em;
     margin-right: 10%;
     display: inline;
+    float: left;
+}
+
+.main:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 1em;
+}
+
+.main-one{
+    background-color: #f6f6f6;
+}
+
+.text-one{
+    width: 20%;
+    margin-top: 6em;
+    margin-left: 10%;
+    display: inline;
+    float: left;
+}
+
+.item-one{
+    width: 50%;
+    margin-right: 5%;
+    margin-top: 4em;
     float: left;
 }
 
@@ -120,8 +145,7 @@ li a{
     clear: both;
 }
 
-.text-one h2{
-    font-size: 40px;
-    margin-bottom: 1em;
-}
+
+
+
 
