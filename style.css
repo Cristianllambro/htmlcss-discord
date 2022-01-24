@@ -123,6 +123,10 @@ h2{
     margin-bottom: 1em;
 }
 
+.rotate{
+    transform: rotate(180deg);
+}
+
 .main-one{
     height: auto;
     background-color: #f6f6f6;
@@ -159,6 +163,11 @@ h2{
 .text-three{
     margin-left: 25%;
     margin-right: 25%;
+}
+
+.star h3{
+    width: 100%;
+    background-image: url(img/stars.svg);
 }
 
 .download{
