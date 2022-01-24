@@ -5,34 +5,48 @@
     font-family: 'Roboto', sans-serif;;
 }
 
-.header{
-    background-color:#255ee9 ;
+nav{
     width: 100%;
-    height: 60px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.nav-bar{
+    background-color: green;
+    width: 100%;
+    height: auto;
     text-align: center;
-    line-height: 38px;
+    padding-top: .5em;
+    position: relative;
 }
 
 .logo{
-
+    position: absolute;
+    top: 20%;
+    left: 10%;
 }
 
-
-.header a{
-    margin-right: 3em;
+li{
+    display: inline-block ;
     color: white;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
+    padding: 1em;
 }
 
-a:last-child{
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn{
+    background-color: white;
+    color: black;
+    padding: 8px;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: white;
-    border-radius: 20px;
-    color: black;
-    margin-left: 7em;
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    right: 10%;
 }
 
 .btn a{
@@ -40,52 +54,43 @@ a:last-child{
 }
 
 .nav-center{
+    width: 100%;
     height: 500px;
     background-image: url(img/jumbo.png);
-    text-align: center;
-    padding-top: 7em;
+    background-position: cover;
+    padding-top: 8em;
     color: white;
-    padding-left: 25%;
-    padding-right: 25%;
-
+    text-align: center;
 }
 
 .nav-center h1{
-    font-size: 70px;
-    padding-bottom: 40px;
-
+    font-size: 50px;
+    margin-bottom: 1em;
+}
+    
+.nav-center p{  
+    margin-left: 25%;
+    margin-right: 25%;
+}
+    
+.button{
+    padding: 15px;
+    border-radius: 30px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 2em;
+    margin-right: 1em;
 }
 
-.btn-white{
-    color: black;
+.white{
+    width: 200px;
     background-color: white;
-    border-radius: 25px;
-    padding: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 40px;
-    display: inline-block;
+    color: black;
 }
 
-.btn-black{
-    color: white;
+.black{
+    width: 250px;
     background-color: #23272a;
-    border-radius: 25px;
-    padding: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 40px;
-    display: inline-block;
+    color: white;
 }
-
-/* secion one */
-
-.section-one{
-    position: relative;
-}
-
-
-
-
-
 
