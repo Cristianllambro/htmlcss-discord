@@ -12,7 +12,7 @@ nav{
 }
 
 .nav-bar{
-    background-color: green;
+    background-color: #255ee9;
     width: 100%;
     height: auto;
     text-align: center;
@@ -94,6 +94,10 @@ li a{
     color: white;
 }
 
+main{
+    padding-bottom: 5em;
+}
+
 .item{
     width: 50%;
     margin-left: 10%;
@@ -104,9 +108,8 @@ li a{
 .text{
     width: 20%;
     margin-top: 6em;
-    margin-right: 10%;
-    display: inline;
-    float: left;
+    margin-right: 15%;
+    float: right;
 }
 
 .main:after{
@@ -121,14 +124,15 @@ h2{
 }
 
 .main-one{
+    height: auto;
     background-color: #f6f6f6;
+    padding-bottom: 5em;
 }
 
 .text-one{
     width: 20%;
     margin-top: 6em;
-    margin-left: 10%;
-    display: inline;
+    margin-left: 15%;
     float: left;
 }
 
@@ -136,7 +140,7 @@ h2{
     width: 50%;
     margin-right: 5%;
     margin-top: 4em;
-    float: left;
+    float: right;
 }
 
 .main-one:after{
@@ -145,7 +149,29 @@ h2{
     clear: both;
 }
 
+.main-bot{
+    background-color: #f6f6f6;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 4em;
+}
 
+.text-three{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.download{
+    text-decoration: none;
+    width: 200px;
+    padding: 20px;
+    margin-top: 1em;
+    display: inline-block;
+    background-color: #8ea1e1;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
 
 
 
